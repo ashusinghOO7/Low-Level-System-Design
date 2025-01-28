@@ -1,37 +1,37 @@
-Parking Lot Low Level System Design
+***Parking Lot Low Level System Design***
 
 
 Questions to ask 
 
--> Number of Entries, Floors.
--> Type of Vehicles
--> Are there different type of parking spots for different vehicles
+	-> Number of Entries, Floors.
+	-> Type of Vehicles
+	-> Are there different type of parking spots for different vehicles
 
 
 Functional Requirement
 
--> User should park the vehicle finding the available spot
--> User can unpark the vehicle and free up the available spot
--> Find nearest available slot available
--> Show available parking spot count vehicle wise
--> Payment calculation based on duration, type of vehicle
+	-> User should park the vehicle finding the available spot
+	-> User can unpark the vehicle and free up the available spot
+	-> Find nearest available slot available
+	-> Show available parking spot count vehicle wise
+	-> Payment calculation based on duration, type of vehicle
 
 Non Functional Requirement
 
--> Optimization for fast parking/unparking.
--> Extensible for new vehicle type or new Parking strategy.
+	-> Optimization for fast parking/unparking.
+	-> Extensible for new vehicle type or new Parking strategy.
 
 
 Core Classes and Objects
 
 
--> Parking Lot  -  Main Class i.e. defines the whole Parking Lot
--> Floors (If multiple floors are there)  -  Represents a single floor 
--> Parking Spot   -   Represent an individual parking spot to park the vehicle
--> Vehicle  -   Represent the vehicle to be parked
--> Ticket  -  Represent the parking ticket that is issued to the vehicle
--> Payment -  Handles Payment processing
--> Parking Strategy   -   Decides how to assign parking strategy (i.e. Nearest to entrance)
+	-> Parking Lot  -  Main Class i.e. defines the whole Parking Lot
+	-> Floors (If multiple floors are there)  -  Represents a single floor 
+	-> Parking Spot   -   Represent an individual parking spot to park the vehicle
+	-> Vehicle  -   Represent the vehicle to be parked
+	-> Ticket  -  Represent the parking ticket that is issued to the vehicle
+	-> Payment -  Handles Payment processing
+	-> Parking Strategy   -   Decides how to assign parking strategy (i.e. Nearest to entrance)
 
 
 Design Pattern 
